@@ -1,0 +1,41 @@
+{% comment %} <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barcode Information</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Barcode Information</h1>
+    <form action="{{ url_for('update_item') }}" method="post">
+        <label for="name">품명:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="price">가격:</label>
+        <input type="number" step="0.01" id="price" name="price" required>
+        <label for="expiry_date">유통기한:</label>
+        <input type="date" id="expiry_date" name="expiry_date" required>
+        <label for="quantity">개수:</label>
+        <input type="number" id="quantity" name="quantity" required>
+        <button type="submit">Update</button>
+    </form>
+    
+    <h2>Upload Image for Barcode Processing</h2>
+    <form action="{{ url_for('process_image_route') }}" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept="image/*" required>
+        <button type="submit">Process Image</button>
+    </form>
+
+
+    <h2>Current Items</h2>
+    <ul>
+        {% for item in items %}
+            <li>
+                {{ item.name }} - {{ item.price }} - {{ item.expiry_date }} - {{ item.quantity }}
+            </li>
+        {% endfor %}
+    </ul>
+
+    <a href="{{ url_for('order_complete') }}"><button>주문 완료</button></a>
+</body>
+</html> {% endcomment %}

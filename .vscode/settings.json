@@ -1,0 +1,40 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/path/to/your/robot_package",
+        "/home/lee/Desktop/Aris_Team5_build_test/install/store_package/lib/python3.10/site-packages",
+        "/home/lee/Desktop/Aris_Team5_build_test/install/robot_service/local/lib/python3.10/dist-packages",
+        "/home/lee/Desktop/Aris_Team5_build_test/install/robot_package/lib/python3.10/site-packages",
+        "/home/lee/Desktop/Aris_Team5_build_test/install/interface_package/local/lib/python3.10/dist-packages",
+        "/home/lee/Desktop/Aris_Team5_build_test/install/db_package/lib/python3.10/site-packages",
+        "/home/lee/Desktop/storagy_lee/install/my_robot/lib/python3.10/site-packages",
+        "/home/lee/Desktop/storagy_lee/install/local_node_pkg/lib/python3.10/site-packages",
+        "/home/lee/Desktop/storagy5/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages",
+        "/home/lee/Desktop/storagy5/install/dwb_msgs/local/lib/python3.10/dist-packages",
+        "/home/lee/Desktop/storagy5/install/nav_2d_msgs/local/lib/python3.10/dist-packages",
+        "/home/lee/Desktop/storagy5/install/nav2_simple_commander/lib/python3.10/site-packages",
+        "/home/lee/Desktop/storagy5/install/nav2_msgs/local/lib/python3.10/dist-packages",
+        "/home/lee/Desktop/storagy5/install/nav2_common/local/lib/python3.10/dist-packages",
+        "/home/lee/Desktop/storagy5/install/motor_driver2/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/path/to/your/robot_package",
+        "/home/lee/Desktop/Aris_Team5_build_test/install/store_package/lib/python3.10/site-packages",
+        "/home/lee/Desktop/Aris_Team5_build_test/install/robot_service/local/lib/python3.10/dist-packages",
+        "/home/lee/Desktop/Aris_Team5_build_test/install/robot_package/lib/python3.10/site-packages",
+        "/home/lee/Desktop/Aris_Team5_build_test/install/interface_package/local/lib/python3.10/dist-packages",
+        "/home/lee/Desktop/Aris_Team5_build_test/install/db_package/lib/python3.10/site-packages",
+        "/home/lee/Desktop/storagy_lee/install/my_robot/lib/python3.10/site-packages",
+        "/home/lee/Desktop/storagy_lee/install/local_node_pkg/lib/python3.10/site-packages",
+        "/home/lee/Desktop/storagy5/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages",
+        "/home/lee/Desktop/storagy5/install/dwb_msgs/local/lib/python3.10/dist-packages",
+        "/home/lee/Desktop/storagy5/install/nav_2d_msgs/local/lib/python3.10/dist-packages",
+        "/home/lee/Desktop/storagy5/install/nav2_simple_commander/lib/python3.10/site-packages",
+        "/home/lee/Desktop/storagy5/install/nav2_msgs/local/lib/python3.10/dist-packages",
+        "/home/lee/Desktop/storagy5/install/nav2_common/local/lib/python3.10/dist-packages",
+        "/home/lee/Desktop/storagy5/install/motor_driver2/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

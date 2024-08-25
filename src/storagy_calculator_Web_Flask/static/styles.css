@@ -1,0 +1,108 @@
+/* 웹 페이지의 기본 스타일 */
+body {
+    background: url('/static/12341234.jpg') no-repeat center center fixed; /* 배경 이미지 추가 */
+    background-size: cover; /* 이미지가 화면에 맞게 조정됨 */
+    font-family: Arial, sans-serif; /* 기본 폰트 */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333; /* 기본 텍스트 색상 */
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    height: 80%;
+    position: relative;
+}
+
+.camera-section {
+    border: 8px solid yellow; /* 두께를 8px로 변경 */
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    flex: 1;
+    margin-right: 20px;
+    position: relative; /* 상대 위치 지정 */
+}
+
+.camera {
+    width: 100%; /* 가로 너비를 100%로 설정 */
+    height: 90%; /* 세로 높이를 100%로 설정 */
+    max-height: 100%; /* 최대 높이를 100%로 설정 */
+    border-radius: 8px; /* 비디오의 모서리를 둥글게 설정 */
+    object-fit: cover; /* 비디오의 크기 조정 방식 설정 */
+}
+
+.instruction-text {
+    margin-top: 10px;
+    font-size: 24px; /* 글자 크기 조정 (큰 글자 크기 설정) */
+    color: #333;
+    position: absolute; /* 절대 위치 지정 */
+    bottom: 10px; /* 카메라 영역 하단에서 10px 거리 */
+    left: 145px; /* 왼쪽에서 20px 거리 */
+    font-weight: bold; /* 글자 두께 조정 (선택 사항) */
+
+}
+
+.info-section {
+    background-color: #fff;
+    border-radius: 8px;
+    border: 8px solid yellow; /* 두께를 8px로 변경 */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    flex: 1;
+}
+
+.table {
+    margin-top: 20px;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.table th, .table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.table th {
+    background-color: #f8f9fa;
+}
+
+.order-button {
+    display: block;
+    width: 75%;
+    max-width: 250px;
+    padding: 10px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.order-button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .camera-section, .info-section {
+        width: 100%;
+        margin: 0;
+    }
+}

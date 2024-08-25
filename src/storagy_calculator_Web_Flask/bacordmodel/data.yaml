@@ -1,0 +1,13 @@
+train: /home/sineunji/open_study/YOLOcode/bacordmodel/train/images
+val: /home/sineunji/open_study/YOLOcode/bacordmodel/valid/images
+test: /home/sineunji/open_study/YOLOcode/bacordmodel/test/images
+
+nc: 10
+names: ['chickchok-3400-2025-9-10', 'chicken-6500-2024-8-27', 'chocomush-1200-2024-10-8', 'cola-2000-2025-7-8', 'cow-12000-2024-8-30', 'crunchy-1500-2024-12-29', 'kuandku-2000-2024-11-08', 'milk-2800-2024-9-20', 'redpocky-1800-2025-7-23', 'whitepocky-1800-2025-8-10']
+
+roboflow:
+  workspace: chicken-njzym
+  project: bacord
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/chicken-njzym/bacord/dataset/4
