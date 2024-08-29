@@ -1,6 +1,6 @@
 /* 웹 페이지의 기본 스타일 */
 body {
-    background: url('/static/12341234.jpg') no-repeat center center fixed; /* 배경 이미지 추가 */
+    background: url('/static/mart.jpg') no-repeat center center fixed; /* 배경 이미지 추가 */
     background-size: cover; /* 이미지가 화면에 맞게 조정됨 */
     font-family: Arial, sans-serif; /* 기본 폰트 */
     margin: 0;

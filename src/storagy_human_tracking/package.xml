@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>storagy_human_tracking</name>
+  <version>0.0.0</version>
+  <description>TODO: Package description</description>
+  <maintainer email="dltmdgh1346@gmail.com">lee</maintainer>
+  <license>TODO: License declaration</license>
+  
+  <!-- Build tool dependencies -->
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <!-- Dependencies required to run the package -->
+  <depend>rclpy</depend>
+  <depend>nav2_bringup</depend>  <!-- For navigation -->
+  <depend>robot_state_publisher</depend>
+  <depend>rviz2</depend>
+  <depend>geometry_msgs</depend>
+  <depend>sensor_msgs</depend>
+
+  <!-- Test dependencies -->
+  <test_depend>pytest</test_depend>
+
+  <!-- Export section -->
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
