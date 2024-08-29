@@ -1,0 +1,17 @@
+<package format="2">
+  <name>apriltag_ros2</name>
+  <version>0.0.0</version>
+  <description>AprilTag ROS 2 package</description>
+  <maintainer email="your_email@example.com">your_name</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>cv_bridge</exec_depend>
+  <exec_depend>opencv-python</exec_depend>
+  <exec_depend>apriltag</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
